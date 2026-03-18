@@ -365,14 +365,14 @@ windows_vms = {
 
 linux_vms = {
     ODBTST = {
-        size = "Standard_D2as_v6"
+        size = "Standard_D2as_v7"
         names = [
             "ODBTST"
         ]
-        zone = 2
+        zone = 3
         admin_ssh_key = {
             #CHANGEME
-            public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCbjdwBVv69QFokjDW6QZ1Dir0lq0spiQVupNEvEKeKKLjd8NkQeCIpjpXt/NNGhaaiEqSdNaFWEKh//GYjtqVKED2f1cYrYWretokF5jxC5MDCvhBGQM9GeTkbdRmlveUTZqyzwTN1orUTG5YxysKE62p42l8jthn8wRUO//Uk74/VmdOdkaHUlGQO2JmEUaTCGkaPbZD0tBP0mpe1ggqbev5o6OF381Ozr0I3tlplngfTzqxxm2g3Svhn2XkR6m22hImSo0Kmv6dC2W+IKjmyvW5/rs8YDoy6xGWnw20rDSygTyGRCgL+cEORbwVv2oi3hNjjBcB/87ew4RRptwJ5"
+            public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmVh+v0ph32L50XmMQZTBcs0PBa5DFvtE5CDxJc1jiALAcX4tTprqqDEYS7FDkr0UCsZExLB53NS4geSMgEdxS7YUn9AYNMX+7bOsfGfNiguj88FU2SfkZNi7mrcfnUkxs/F21gtTSQpL8UyU8APhWBrXZcv2miNNnaI1PSGWC5TF59znZU4LhScuR1wnO4QOmHGZHHxfgKW+5kl3+XzcawVKjjcuUjwELcPl5rpY8YQ8KBJCD/5OlE60bXNRlEPIt78n4triAxYdoN8YZPZ8O+xfYeR/lg28k/b6Wrjb2Iexd2TLw5Bu2jXb6HuNrGuzjFvEvy/B6WcSsajtikMpP"
         }
         secure_boot_enabled = false
         disable_password_authentication = false
