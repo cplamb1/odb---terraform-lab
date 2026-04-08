@@ -298,10 +298,10 @@ windows_vms = {
     hsw = {
         ##Hyperspace Web Servers##
         names = [
-            # "azwu2nhsw001"
+            "azwu2nhsw001"
             # "azwu2nhsw002"
         ] 
-        size = "Standard_D2as_v6"
+        size = "Standard_D2as_v7"
         license_type = "Windows_Server"
         # virtual_machine_scale_set = "hsw"
         zone = "2"
@@ -367,7 +367,8 @@ linux_vms = {
     ODBTST = {
         size = "Standard_D2as_v7"
         names = [
-            "ODBTST"
+            "ODBTST",
+            "ODBPRD"
         ]
         zone = 3
         admin_ssh_key = {
